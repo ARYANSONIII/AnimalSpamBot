@@ -55,8 +55,8 @@ async def start(event):
         bot_name = KEX.first_name
         bot_id = KEX.id
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n➖➖➖➖➖➖➖➖➖➖➖\n"
-        TEXT += f"» **ᴀɴɪᴍᴀʟ : [❤️‍🔥ᴊᴀɴᴡᴀʀ❤️‍🔥](https://t.me/AnimalJanwarrrr)**\n"
-        TEXT += f"» **ꜱᴛᴏʀᴍ :** `M3.0` \n"
+        TEXT += f"» **ᴀɴɪᴍᴀʟ : [❤️‍🔥ᴊᴀɴᴡᴀʀ❤️‍🔥](https://t.me/smartness_to_hai)**\n"
+        TEXT += f"» **ғᴜᴄᴋ :** `M3.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ :** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ :** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"        
         await event.client.send_file(
