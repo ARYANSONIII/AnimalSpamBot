@@ -32,8 +32,8 @@ HELP_STRING = f"""
 
 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴀɴɪᴍᴀʟ](https://t.me/smartness_to_hai)** ✨
 
-**ᴄʜᴀɴɴᴇʟ: [🌹ᴛᴀʙᴀʜɪ🌹](https://t.me/tabahi_tabahi)**
-**ꜱᴜᴘᴘᴏʀᴛ: [❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥](https://t.me/knight_society)**
+**ᴄʜᴀɴɴᴇʟ: [🌹ᴛᴀʙᴀʜɪ🌹](https://t.me/Witxher)**
+**ꜱᴜᴘᴘᴏʀᴛ: [❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥](https://t.me/smartness_to_hai)**
 """
 HELP_BUTTON = [
     [
@@ -45,7 +45,7 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/knight_society")
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/tabahi_tabahi")
     ]
   ]
 
