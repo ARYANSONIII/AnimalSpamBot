@@ -32,7 +32,7 @@ HELP_STRING = f"""
 
 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴀɴɪᴍᴀʟ](https://te.legra.ph/file/ec19cf227791a167abedc.jpg)** ✨
 
-**ᴄʜᴀɴɴᴇʟ: [🌹ʙᴇᴀᴜᴛʏ🌹](https://t.me/itsRareBeautySelenaGomez)**
+**ᴄʜᴀɴɴᴇʟ: [🌹ᴛᴀʙᴀʜɪ🌹](https://t.me/tabahi_tabahi)**
 **ꜱᴜᴘᴘᴏʀᴛ: [❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥](https://t.me/knight_society)**
 """
 HELP_BUTTON = [
