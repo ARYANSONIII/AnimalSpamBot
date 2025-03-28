@@ -44,7 +44,7 @@ TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
 TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
 TEXT += f"**• ɢʀᴏᴜᴘ : [❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥](https://t.me/knight_spciety)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ : [🌹ʙᴇᴀᴜᴛʏ🌹](https://t.me/itsRareBeautySelenaGomez)**\n"
+TEXT += f"**• ᴄʜᴀɴɴᴇʟ : [🌹ᴛᴀʙᴀʜɪ🌹](https://t.me/tabahi_tabahi)**\n"
 TEXT += f"**• ᴀɴɪᴍᴀʟ : [👿ᴊᴀɴᴡᴀʟ👿](https://t.me/AnimalJanwarrrr)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
@@ -66,7 +66,7 @@ async def alive(event):
                                   buttons=[
         [
         Button.url("• ❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥 •", "https://t.me/kinght_society"),
-        Button.url("• 🌹ʙᴇᴀᴜᴛʏ🌹 •", "https://t.me/itsRareBeautySelenaGomez")
+        Button.url("• 🌹ᴛᴀʙᴀʜɪ🌹 •", "https://t.me/tabahi_tabahi")
         ],
         ]
         )
