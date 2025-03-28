@@ -25,17 +25,17 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("🌹ᴛᴀʙᴀʜɪ🌹", "https://t.me/tabahi_tabahi"),
+        Button.url("🌹ᴛᴀʙᴀʜɪ🌹", "https://t.me/Witxher"),
         Button.url("❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥", "https://t.me/smartness_to_hai"),
     ],
     [
         Button.url(
-            "🪷ɢʀᴏᴜᴘ🪷", "https://t.me/knight_society"
+            "🪷sᴜᴘᴘᴏʀᴛ🪷", "https://t.me/DairyKeAlfaz"
         ),
     ],
     [
         Button.url("👿ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ👿", "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
-        Button.url("☁️ᴄʜᴀɴɴᴇʟ☁️", "https://t.me/DairyKeAlfaz"),
+        Button.url("☁️ᴄʜᴀɴɴᴇʟ☁️", "https://t.me/tabahi_tabahi"),
     ],
 ]
 
