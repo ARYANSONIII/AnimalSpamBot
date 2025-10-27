@@ -34,7 +34,7 @@ START_OP = [
         ),
     ],
     [
-        Button.url("•🍁 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍁•", "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
+        Button.url("•🍁 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍁•", "https://files.catbox.moe/1fh5ru.jpg"),
         Button.url("•🍁 ᴄʜᴀɴɴᴇʟ 🍁•", "https://t.me/tabahi_tabahi"),
     ],
 ]
@@ -61,10 +61,11 @@ async def start(event):
         TEXT += f"» **•🍁 ᴛᴇʟᴇᴛʜᴏɴ : `{__version__}` 🍁•**\n➖➖➖➖➖➖➖➖➖➖➖"        
         await event.client.send_file(
                     event.chat_id,  
-                    "https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
+                    "https://files.catbox.moe/1fh5ru.jpg",
                     caption=TEXT, 
                     buttons=START_OP
                 )
+
 
 
 
