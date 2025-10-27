@@ -28,7 +28,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f"""
 ✨ **ꜱᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ᴘᴜᴊᴀ ꜱᴘᴀᴍ ʙᴏᴛ](https://te.legra.ph/file/ec19cf227791a167abedc.jpg) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘᴜᴊᴀ ꜱᴘᴀᴍ ʙᴏᴛ](https://telegra.ph/SMDBOTZ-10-27-4) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [🍁 ᴀɴɪᴍᴀʟ 🍁](https://t.me/smartness_to_hai)** ✨
 
@@ -64,7 +64,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://te.legra.ph/file/82465361fb9dc86b148f3.jpg",
+              "https://telegra.ph/SMDBOTZ-10-27-4",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -294,4 +294,5 @@ async def help_extra(event):
             )
     else:
         await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+
 
