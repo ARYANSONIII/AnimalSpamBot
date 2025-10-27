@@ -67,12 +67,12 @@
       },
       "SUDO_USERS": {
         "description": "ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ɪᴅ ꜱᴘᴀᴄᴇ ʙʏ ꜱᴘᴀᴄᴇ",
-        "value": "1777910193 6731793371",
+        "value": "7714883515 7736043213",
         "required": false
       },
       "OWNER_ID": {
         "description": "ᴏᴡɴᴇʀ ɪᴅ",
-        "value": "1777910193",
+        "value": "7710642242",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -92,3 +92,4 @@
         }
     ]
 }
+
