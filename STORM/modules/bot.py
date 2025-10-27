@@ -35,7 +35,7 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "•🍁 ᴘ ᴜ ᴊ ᴀ ᴊ ɪ 🍁•"
-PIC = "https://telegra.ph/SMDBOTZ-10-27-4"
+PIC = "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"
 Alivemsg = "•🍁 ᴘᴜᴊᴀ x ꜱᴘᴀᴍ ʜᴇʀᴇ 🍁•"
 
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ •🍁 ᴘᴜᴊᴀ ɪꜱ ᴀʟɪᴠᴇ ᴛᴏ ғᴜᴄᴋ ʏᴏᴜʀ ᴍᴏᴛʜᴇʀ 🍁• ㅤㅤㅤ\n"
@@ -295,6 +295,7 @@ async def restart(e):
             pass
 
         execl(sys.executable, sys.executable, *sys.argv)
+
 
 
 
