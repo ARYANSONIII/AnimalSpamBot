@@ -62,7 +62,7 @@
       },
       "CMD_HNDLR": {
         "description": "ᴄᴜꜱᴛᴏᴍ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀ",
-        "value": ".",
+        "value": "/",
         "required": false
       },
       "SUDO_USERS": {
@@ -92,4 +92,5 @@
         }
     ]
 }
+
 
