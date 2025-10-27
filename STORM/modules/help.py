@@ -26,14 +26,14 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-🍁 **ꜱᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ** 🍁
+•🍁 **ꜱᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ** 🍁•
 
-🍁 **[ᴘᴜᴊᴀ ꜱᴘᴀᴍ ʙᴏᴛ](https://telegra.ph/SMDBOTZ-10-27-4) ʜᴇʟᴘ ᴍᴇɴᴜ** 🍁
+•🍁 **[ᴘᴜᴊᴀ ꜱᴘᴀᴍ ʙᴏᴛ](https://telegra.ph/SMDBOTZ-10-27-4) ʜᴇʟᴘ ᴍᴇɴᴜ** 🍁•
 
-🍁 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴀɴɪᴍᴀʟ](https://t.me/smartness_to_hai)** 🍁
+•🍁 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴀɴɪᴍᴀʟ](https://t.me/smartness_to_hai)** 🍁•
 
-🍁 **ᴄʜᴀɴɴᴇʟ: [ᴄʜᴀɴɴᴇʟ](https://t.me/tabahi_tabahi)** 🍁
-🍁 **ꜱᴜᴘᴘᴏʀᴛ: [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/+dB09v-VVuwZjODI6)** 🍁
+•🍁 **ᴄʜᴀɴɴᴇʟ: [ᴄʜᴀɴɴᴇʟ](https://t.me/tabahi_tabahi)** 🍁•
+•🍁 **ꜱᴜᴘᴘᴏʀᴛ: [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/+dB09v-VVuwZjODI6)** 🍁•
 """
 HELP_BUTTON = [
     [
@@ -72,7 +72,7 @@ async def help(event):
             await event.client.send_message(event.chat_id, f"ᴀɴ ᴇxᴄᴇᴘᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ!\n\n**ᴇʀʀᴏʀ:** {str(e)}")
 
 extra_msg = f"""
-**» ᴇ​🇽​ᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ⦂**
+**•🍁 ᴇ​x​ᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ 🍁•**
 
  ˣ ᴄʜᴇᴄᴋ ᴘɪɴɢ
 
@@ -294,6 +294,7 @@ async def help_extra(event):
             )
     else:
         await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+
 
 
 
