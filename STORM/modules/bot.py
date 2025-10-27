@@ -35,10 +35,10 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ᴘ ᴜ ᴊ ᴀ ᴊ ɪ"
-PIC = "https://te.legra.ph/file/82465361fb9dc86b148f3.jpg"
+PIC = "https://telegra.ph/SMDBOTZ-10-27-4"
 Alivemsg = "ᴘᴜᴊᴀ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
-TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘᴜᴊᴀ ɪꜱ ᴀʟɪᴠᴇ ᴛᴏ ғᴜᴄᴋ ʏᴏᴜʀ ᴍᴏᴛʜᴇʀ• ㅤㅤㅤ\n"
+TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘᴜᴊᴀ ɪꜱ ᴀʟɪᴠᴇ ᴛᴏ ғᴜᴄᴋ ʏᴏᴜʀ ᴍᴏᴛʜᴇʀ • ㅤㅤㅤ\n"
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤ ʙᴏᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ‌🪽\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**•🍁 ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ 🍁: `3.11.3`**\n"
@@ -295,6 +295,7 @@ async def restart(e):
             pass
 
         execl(sys.executable, sys.executable, *sys.argv)
+
 
 
 
