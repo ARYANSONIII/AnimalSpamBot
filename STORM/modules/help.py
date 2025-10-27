@@ -26,26 +26,26 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 
 
 HELP_STRING = f"""
-✨ **ʙᴏᴛ ʜᴇʟᴘ** ✨
+✨ **ꜱᴘᴀᴍ ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ᴀɴɪᴍᴀʟ ꜱᴘᴀᴍ ʙᴏᴛ](https://te.legra.ph/file/ec19cf227791a167abedc.jpg) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘᴜᴊᴀ ꜱᴘᴀᴍ ʙᴏᴛ](https://te.legra.ph/file/ec19cf227791a167abedc.jpg) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
-**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴀɴɪᴍᴀʟ](https://t.me/smartness_to_hai)** ✨
+**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [🍁 ᴀɴɪᴍᴀʟ 🍁](https://t.me/smartness_to_hai)** ✨
 
-**ᴄʜᴀɴɴᴇʟ: [🌹ᴛᴀʙᴀʜɪ🌹](https://t.me/Witxher)**
-**ꜱᴜᴘᴘᴏʀᴛ: [❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥](https://t.me/smartness_to_hai)**
+**ᴄʜᴀɴɴᴇʟ: [🍁 ᴄʜᴀɴɴᴇʟ 🍁](https://t.me/tabahi_tabahi)**   
+**ꜱᴜᴘᴘᴏʀᴛ: [🍁 ꜱᴜᴘᴘᴏʀᴛ 🍁](https://t.me/+dB09v-VVuwZjODI6)**
 """
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("•🍁 ꜱᴘᴀᴍ 🍁•", data="spam"),
+      Button.inline("•🍁 ʀᴀɪᴅ 🍁•", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀꜱ •", data="extra"),
-      Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
+      Button.inline("•🍁 ᴇxᴛʀᴀꜱ 🍁•", data="extra"),
+      Button.inline("•🍁 ᴏᴡɴᴇʀ 🍁•", data="owner")
     ],
     [
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/tabahi_tabahi")
+      Button.url("•🍁 ᴛᴀʙᴀʜɪ 🍁•", "https://t.me/tabahi_tabahi")
     ]
   ]
 
@@ -294,3 +294,4 @@ async def help_extra(event):
             )
     else:
         await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+
