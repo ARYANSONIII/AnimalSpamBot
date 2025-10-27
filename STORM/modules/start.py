@@ -25,17 +25,17 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("🌹ᴛᴀʙᴀʜɪ🌹", "https://t.me/Witxher"),
-        Button.url("❤️‍🔥ᴀɴɪᴍᴀʟ❤️‍🔥", "https://t.me/smartness_to_hai"),
+        Button.url("🍁 ᴛᴀʙᴀʜɪ 🍁", "https://t.me/tabahi_tabahi"),
+        Button.url("🍁 ᴀɴɪᴍᴀʟ 🍁", "https://t.me/smartness_to_hai"),
     ],
     [
         Button.url(
-            "🪷sᴜᴘᴘᴏʀᴛ🪷", "https://t.me/DairyKeAlfaz"
+            "🍁 sᴜᴘᴘᴏʀᴛ 🍁", "https://t.me/+dB09v-VVuwZjODI6"
         ),
     ],
     [
-        Button.url("👿ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ👿", "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
-        Button.url("☁️ᴄʜᴀɴɴᴇʟ☁️", "https://t.me/tabahi_tabahi"),
+        Button.url("🍁 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🍁", "https://te.legra.ph/file/ec19cf227791a167abedc.jpg"),
+        Button.url("🍁 ᴄʜᴀɴɴᴇʟ 🍁", "https://t.me/tabahi_tabahi"),
     ],
 ]
 
@@ -55,7 +55,7 @@ async def start(event):
         bot_name = KEX.first_name
         bot_id = KEX.id
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n➖➖➖➖➖➖➖➖➖➖➖\n"
-        TEXT += f"» **ᴀɴɪᴍᴀʟ : [❤️‍🔥ᴊᴀɴᴡᴀʀ❤️‍🔥](https://t.me/smartness_to_hai)**\n"
+        TEXT += f"» **🍁 ᴀɴɪᴍᴀʟ 🍁: [🍁 ᴊᴀɴᴡᴀʀ 🍁](https://t.me/smartness_to_hai)**\n"
         TEXT += f"» **ғᴜᴄᴋ :** `M3.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ :** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ :** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"        
@@ -65,3 +65,4 @@ async def start(event):
                     caption=TEXT, 
                     buttons=START_OP
                 )
+
