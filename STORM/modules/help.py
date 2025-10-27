@@ -223,20 +223,20 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid")
+                Button.inline("•🍁 ꜱᴘᴀᴍ 🍁•", data="spam"),
+                Button.inline("•🍁 ʀᴀɪᴅ 🍁•", data="raid")
               ],
               [
-                Button.inline("• ᴇxᴛʀᴀꜱ •", data="extra"),
-                Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
+                Button.inline("•🍁 ᴇxᴛʀᴀꜱ 🍁•", data="extra"),
+                Button.inline("•🍁 ᴏᴡɴᴇʀ 🍁•", data="owner")
               ],
               [
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/knight_society")
+                Button.url("•🍁 ꜱᴜᴘᴘᴏʀᴛ 🍁•", "https://t.me/tabahi_tabahi")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @smartness_to_hai", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -255,7 +255,7 @@ async def help_spam(event):
               buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @smartness_to_hai", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -274,7 +274,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @smartness_to_hai", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -293,10 +293,4 @@ async def help_extra(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @AnimalJanwarrrr", cache_time=0, alert=True)
-
-
-
-
-
-
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @smartness_to_hai", cache_time=0, alert=True)
